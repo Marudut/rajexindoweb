@@ -14,5 +14,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "bourbon": "^4.2.6",
+    "breakpoint-sass": "^2.7.0"
+  }
 }
