@@ -2,67 +2,44 @@
 @import './bower_components/susy/sass/susy';
 @import './bower_components/bourbon/app/assets/stylesheets/bourbon';
 
+/* variable */
 
-body{
-	background: url('../img/bg.jpg') no-repeat center center fixed;		
-}
+$ungu : #7F4AA2;
+$hijau : #43D854;
+/* header */
 
-.container-fluid{
-	@include container(100%);
-}
+#header {
+	background: white;
+	color: $ungu;
+	height: em(50);
+	left: 0;
+	line-height: em(50);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
 
-.navbar-row{
-	@include container(em(1200px))
-}
-nav a{
-	text-decoration: none;
-	color: #50E3C2;
-}
-nav .logo, nav ul{
-	@include display(flex);
-	@include align-items(stretch);
-	height: em(50px);
-	margin:0;
+	h1 {
+		font-weight: 500;
+		height:inherit;
+		left: em(20);
+		line-height: inherit;
+		margin-right: 0;
+		padding: 0;
+		position: absolute;
+		top: inherit;
 
-	
-
-
-}
-nav .logo{
-	float: left;
-	a {
-		line-height: em(40px);
-		font-size: em(20px);
-		padding-left:(15px);
-
-	}
-}
-
-nav .logo a:hover{
-	color:white;
-	@include transition(color 0.1s ease-out 0s)
-}
-nav ul {
-	float: right;
-	list-style: none;
-	margin: 0;
-	padding:0;
-	
-
-	li a{
-		line-height:em(50px);
-		display: block;
-		list-style: none;
-		
-		padding-left: em(15px);
-    	padding-right: em(15px);
-		:hover{
-			border-bottom: em(2px);
-			@include transition(background)
+		a {
+			font-size: em(20);
 		}
-		
-
 	}
-
+	
+	nav {
+		height:inherit;
+		line-height: inherit;
+		position: absolute;
+		right: em(20);
+		top: inherit;
+		vertical-align: middle;
+	}
 }
-
