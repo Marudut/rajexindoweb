@@ -2,6 +2,7 @@
 @import './bower_components/susy/sass/susy';
 @import './bower_components/bourbon/app/assets/stylesheets/bourbon';
 
+<<<<<<< HEAD
 body{
 	background: url('../img/bg.jpg') no-repeat center center fixed;		
 }
@@ -62,4 +63,8 @@ nav ul {
 		
 
 	}
+=======
+section {
+  @include linear-gradient(to top, red, orange);
+>>>>>>> ce9ad11bea562d77770f2c177029c8f6ea635f07
 }

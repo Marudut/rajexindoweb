@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background: url("../img/bg.jpg") no-repeat center center fixed; }
 
@@ -72,3 +73,9 @@ nav ul {
       -webkit-transition: background;
       -moz-transition: background;
       transition: background; }
+=======
+section {
+  background-color: red;
+  background-image: -webkit-linear-gradient(bottom, red, orange);
+  background-image: linear-gradient(to top,red, orange); }
+>>>>>>> ce9ad11bea562d77770f2c177029c8f6ea635f07
