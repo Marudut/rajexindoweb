@@ -1,11 +1,10 @@
 /* variable */
 /* header */
 #header {
-  background: white;
-  color: #7F4AA2;
+  background: #7F4AA2;
   height: 3.125em;
-  left: 0;
   line-height: 3.125em;
+  left: 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -14,13 +13,13 @@
     font-weight: 500;
     height: inherit;
     left: 1.25em;
-    line-height: inherit;
-    margin-right: 0;
+    margin: 0;
     padding: 0;
     position: absolute;
     top: inherit; }
     #header h1 a {
-      font-size: 1.25em; }
+      font-size: 1.125em;
+      text-decoration: none; }
   #header nav {
     height: inherit;
     line-height: inherit;
@@ -28,3 +27,30 @@
     right: 1.25em;
     top: inherit;
     vertical-align: middle; }
+    #header nav > ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0; }
+      #header nav > ul > li {
+        display: inline-block;
+        margin: 0;
+        padding: 0; }
+        #header nav > ul > li a {
+          -webkit-transition: color 0.2s ease-in-out;
+          -moz-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out;
+          color: #BCF4C2;
+          display: block;
+          text-decoration: none;
+          padding-left: 1em;
+          padding-right: 1em; }
+        #header nav > ul > li a:hover {
+          color: white; }
+      #header nav > ul li:first-child {
+        margin-left: 0; }
+  #header .container {
+    position: relative; }
+    #header .container h1 {
+      left: 0; }
+    #header .container nav {
+      right: 0; }
