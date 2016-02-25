@@ -5,15 +5,14 @@
 /* variable */
 
 $ungu : #7F4AA2;
-$hijau : #43D854;
+$hijau : #BCF4C2;
 /* header */
 
 #header {
-	background: white;
-	color: $ungu;
+	background: $ungu;
 	height: em(50);
-	left: 0;
 	line-height: em(50);
+	left: 0;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -23,14 +22,16 @@ $hijau : #43D854;
 		font-weight: 500;
 		height:inherit;
 		left: em(20);
-		line-height: inherit;
-		margin-right: 0;
+		
+		margin: 0;
 		padding: 0;
 		position: absolute;
 		top: inherit;
 
 		a {
-			font-size: em(20);
+			font-size: em(18);
+			text-decoration: none;
+			
 		}
 	}
 	
@@ -41,5 +42,81 @@ $hijau : #43D854;
 		right: em(20);
 		top: inherit;
 		vertical-align: middle;
+
+		> ul{
+			list-style: none;
+			
+			margin: 0;
+			padding-left: 0;
+
+			> li {
+				
+				display: inline-block;
+				margin: 0;
+				padding:0;
+				
+
+				a {
+					@include transition(color 0.2s ease-in-out);
+					color: $hijau;
+					display: block;
+					text-decoration: none;
+					padding-left: 1em;
+					padding-right: 1em;
+
+				}
+
+				a:hover{
+					color:white;
+				}
+			}
+			li:first-child{
+				margin-left: 0;
+				}
+		}
+	}
+	.container{
+		position: relative;
+
+		h1 {
+			left: 0;
+		}
+
+		nav {
+			right: 0;
+		}
 	}
 }
+
+/* banner */
+
+	#banner{
+		background-color: #666;
+		background: url("../img/bg.jpg") no-repeat center center;
+		background-size: cover;
+		text-align: center;
+		position: relative;
+		padding: 14em 0;
+		max-height: 100%;
+		height: 90vh;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
