@@ -1,0 +1,6 @@
+# rajexindoweb
+bower_components
+node_modules
+# OSX
+._*
+.DS_Store
