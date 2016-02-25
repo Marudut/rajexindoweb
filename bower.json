@@ -1,0 +1,23 @@
+{
+  "name": "rajexindoweb",
+  "description": "rajexindoweb",
+  "main": "index.js",
+  "authors": [
+    "doetsmart"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Marudut/rajexindoweb",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "bourbon": "^4.2.6",
+    "breakpoint-sass": "^2.7.0"
+  }
+}
